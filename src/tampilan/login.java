@@ -163,3 +163,4 @@ private Connection conn = new koneksi().connect();
     private javax.swing.JTextField txtusername;
     // End of variables declaration//GEN-END:variables
 }
+//abcd
