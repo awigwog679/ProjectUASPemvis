@@ -30,7 +30,6 @@ protected void datatable(){
         String cariitem = txtcari.getText();
         
         try {
-            // Catatan: Sesuaikan nama kolom id/kdbrg ini sama dengan yang ada di database phpMyAdmin lu
             String sql = "SELECT * FROM barang WHERE id LIKE '%" + cariitem + "%' OR nmbrg LIKE '%" + cariitem + "%' ORDER BY id ASC";
             Statement stat = conn.createStatement();
             ResultSet hasil = stat.executeQuery(sql);
