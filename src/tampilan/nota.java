@@ -642,7 +642,7 @@ public class nota extends javax.swing.JFrame {
             tbltransaksi.setModel(model);
             
             hitungTotal();
-            kosongBarang(); // Biar kolom barang bersih lagi
+            kosongBarang();
             txtkdbrg.requestFocus();
         } catch (Exception e) {
             System.out.println("Error: " + e);
